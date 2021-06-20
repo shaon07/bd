@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>BD.JS</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Bootstrap 4 Template For Software Startups">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head> 
+
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" src="./logo.png" width="30px" alt="logo"><span class="logo-text">BD<span class="text-alt">.JS</span></span></a></div>    
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+						<li class="list-inline-item"><a href="https://github.com/shaon07"><i class="fab fa-github fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://twitter.com/home"><i class="fab fa-twitter fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="https://www.facebook.com/wpdesigner404/?ref=pages_you_manage"><i class="fab fa-facebook fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="https://www.linkedin.com/in/freelancershaon/"><i class="fab fa-linkedin fa-fw"></i></a></li>
+		            </ul><!--//social-list-->
+		            <a href="" class="btn btn-primary d-none d-lg-flex">Download</a>
+	            </div><!--//docs-top-utilities-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+		    <div class="top-search-box d-lg-none p-3">
+                <form class="search-form">
+		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+		        </form>
+            </div>
+		    <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Introduction and Installation</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Print Method</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Date String Method</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Query Method</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">Letter and Number Method</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Set and remove Method</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">String Method</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-7">Comming Soon</a></li>
+				    <!-- <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder mr-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li> -->
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Section Item 2.1</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Section Item 2.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Section Item 2.3</a></li> -->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder mr-2"><i class="fas fa-box"></i></span>APIs</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Comming Soon</a></li>
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Section Item 3.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Section Item 3.3</a></li> -->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Comming Soon</a></li>
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section Item 4.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Section Item 4.3</a></li> -->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder mr-2"><i class="fas fa-tools"></i></span>Utilities</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Comming Soon</a></li>
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Section Item 5.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Section Item 5.3</a></li> -->
+				    <!-- <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder mr-2"><i class="fas fa-laptop-code"></i></span>Web</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1">Section Item 6.1</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">Section Item 6.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-3">Section Item 6.3</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-7"><span class="theme-icon-holder mr-2"><i class="fas fa-tablet-alt"></i></span>Mobile</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-1">Section Item 7.1</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-2">Section Item 7.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-3">Section Item 7.3</a></li> -->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-8"><span class="theme-icon-holder mr-2"><i class="fas fa-book-reader"></i></span>Resources</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-1">Comming Soon</a></li>
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-8-2">Section Item 8.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-3">Section Item 8.3</a></li> -->
+				    <!-- <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-9"><span class="theme-icon-holder mr-2"><i class="fas fa-lightbulb"></i></span>FAQs</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-1">Comming Soon</a></li> -->
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-9-2">Section Item 9.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-3">Section Item 9.3</a></li> -->
+			    </ul>
+
+		    </nav><!--//docs-nav-->
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content">
+		    <div class="container">
+
+				
+				
+			    <article class="docs-article" id="section-1">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Introduction and Installation<span class="docs-time">Last updated: 2019-06-01</span></h1>
+					    <section class="docs-intro">
+							<p>Before Start Code With BD.JS You Must add CDN Of BD.JS</p>
+							<p style="color: green;
+							font-weight: bold;">This JavaScript Library Completely made in ES6 features. that's why Hoisting not working here. so you must add the cdn link after <span style="color: red;"><"head"></span> tag</p>
+							<p style="color: red; font-weight: bold;">Carefully Look at The Image</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3 text-center" style="color: red;">https://cdn.jsdelivr.net/gh/shaon07/bd.js/bd.min.js</h5>
+							</div>
+							<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624210941/carbon_ggv65o.png" class="img-fluid my-3" alt="">
+						    <p>Get started with BD.JS, the world’s New Javascript Library for Programmimg Very Fast and some simple of coding</p>
+						</section><!--//docs-intro-->
+						
+						<h5>Starting Code Example:</h5>
+						<!-- <p>You can <a class="theme-link" href="https://gist.github.com/"  target="_blank">embed your code snippets using Github gists</a></p> -->
+						<div class="docs-code-block">
+							<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623955134/carbon_p7pnoz.png" class="img-fluid my-3" alt="">
+							<!-- <img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623955134/carbon_1_mbafef.png" class="img-fluid my-3" alt=""> -->
+						</div><!--//docs-code-block-->
+						
+					     <!--  -->
+
+
+</code></pre>
+						</div><!--//docs-code-block-->
+						
+						
+				    </header>
+				    <section class="docs-section" id="item-1-1">
+						<div class="ml-2 p-5">
+							<h2 class="section-heading">Print Method In BD.JS</h2>
+						
+                        <h5>Starting Code Example:</h5>
+						<!-- <p>You can <a class="theme-link" href="https://gist.github.com/"  target="_blank">embed your code snippets using Github gists</a></p> -->
+						<div class="docs-code-block">
+							<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623955134/carbon_p7pnoz.png" class="img-fluid my-3" alt="">
+							<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623955134/carbon_1_mbafef.png" class="img-fluid my-3" alt="">
+						</div><!--//docs-code-block-->
+						</div>
+                       
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-2">
+						<h2 style="color: darkgray;" class="section-heading ml-2 px-2">Date String Method</h2>
+						<h3 class="px-3">Time String Method In BD.JS</h3>
+						<p class="ml-3">To Get Output of time</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623956823/Untitled_n53gwg.jpg" class="img-fluid" alt="">
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of Today's Date</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623957107/Untitled_vnfrtc.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of Tomorrow Date</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623957787/Untitled_1_v8cjmq.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of Previous Date</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623957903/Untitled_2_xosvgw.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of This Month</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623958229/Untitled_y6cl3l.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of Next Month</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623958391/Untitled_1_o156i6.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of Previous Month</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623958492/Untitled_2_urwmvo.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of This Year</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623958667/Untitled_3_euocmw.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of Next Year</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623958805/Untitled_4_zzj5yx.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get Output of Previous Year</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623958950/Untitled_5_mwmlh0.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get The Name of this Day</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623959181/Untitled_6_ykcpkh.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get The Name of this Month</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623959312/Untitled_7_apuwx0.jpg" class="img-fluid ml-5" alt="">
+						</div>
+						
+
+					</section><!--//section-->
+					
+					<section class="docs-section mt-5" id="item-1-3">
+						<h2 style="color: darkgray;" class="section-heading ml-2 px-2">Get Query Method</h2>
+						
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Select The Query of any tag</p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623960204/Untitled_nx4k0j.jpg" class="img-fluid ml-5" alt="">
+						</div>
+                    
+					</section><!--//section-->
+					
+					<section class="docs-section mt-5" id="item-1-4">
+						<h2 style="color: darkgray;" class="section-heading ml-2 px-2">Letter and Number Method</h2>
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get A2Z Capital Letter </p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623960654/Untitled_1_cbucuk.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get A2Z Small Letter </p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623960764/Untitled_2_rjmq6k.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get All Numeric Text </p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623960929/Untitled_3_nysm1e.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Get All Type of Text </p>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623961093/Untitled_4_gllmmj.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Select and copy any text </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you need to copy any text just select the tag with getQuery and use <span style="color: red;">copyit()</span> event to fire it</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623961675/carbon_nhsxiq.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">To Generate randow text </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you need to Generate random text you have to use randomText() Method and in the 1st perameter Enter the <span style="color: red;">Length</span> and in the 2nd perameter you need to enter the <span style="color: red;">Class name or ID Name or Tag Name</span> To Get Output</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1623962356/carbon_1_dvhtfk.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Print Array With Index Number</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you need to Print Array in website with index number then you can use <span style="color: red;">getArr()</span> Method.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624013362/Untitled_5_ulae2q.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Generate random number</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you need to Generate random number you have to use <span style="color: red;">randomNum()</span> Method and in the perameter Enter the maximum number that you need random number </h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624018198/Untitled_7_tov9du.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Generate Custom random number</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you need to Generate Custom random number you have to use <span style="color: red;">customRanNum()</span> Method and in the 1st perameter Enter the minimum number and 2nd perameter enter the maximum number.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624018854/Untitled_8_nnpkff.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">get the length of any variables</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">To get length of any variables use <span style="color: red;">len()</span>Method:</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624019016/Untitled_9_bpiu1t.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">get the type of any variables</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">To get type of any variables use <span style="color: red;">type()</span>Method:</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624019367/Untitled_10_fnrj4e.jpg" class="img-fluid ml-5" alt="">
+						</div>
+						
+					</section><!--//section-->
+					<section class="docs-section mt-5" id="item-1-5">
+						<h2 style="color: darkgray;" class="section-heading ml-2 px-2">Set and remove Method</h2>
+						
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Create tag and append it on body</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to create any tag and append it on body you can use <span style="color: red;">setTag()</span>. In the 1st perameter enter the tag name and 2nd perameter enter the innertext that you want. <span style="color: red;">but you can't use input tag and textarea</span></h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624019803/Untitled_11_sok5ot.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Create textarea and input tag append it on body</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to create textarea and input tag and append it on body you can use <span style="color: red;">setArea()</span>. In the 1st perameter enter the tag name and 2nd perameter enter the value and 3rd perameter enter the placeholder value that you want. <span style="color: red;">you can only use input tag and textarea</span></h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624020463/Untitled_12_bchqib.jpg" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Set CSS Class on any tag</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to set css on any tag using Javascript then use this<span style="color: red;">setCSS()</span> Method. In the 1st perameter enter the tag name, or class name or ID name and 2nd perameter enter the class name that you want to add <span style="color: red;">you can only use one class in one method</span></h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624021070/carbon_2_wqiryl.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Remove CSS Class on any tag</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to remove css on any tag using Javascript then use this<span style="color: red;">removeCSS()</span> Method. In the 1st perameter enter the tag name, or class name or ID name and 2nd perameter enter the class name that you want to remove <span style="color: red;">you can only use one class in one method</span></h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624021891/carbon_4_ngmaxc.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Check array method</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to check array you can use this <span style="color: red;">checkArr()</span> Method.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624022464/Untitled_14_mpvbwc.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+
+					</section><!--//section-->
+					<section class="docs-section mt-5" id="item-1-6">
+						<h2 style="color: darkgray;" class="section-heading ml-2 px-2">String Method </h2>
+						
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Check the index of a string value</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to check the index of a string value you can use this <span style="color: red;">strPos()</span> Method. In The 1st perameter enter the variable name and 2nd perameter enter the word you need index</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624023036/Untitled_15_fuucno.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Check the Last index of a string value</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to check the last index of a string value you can use this <span style="color: red;">lastStrPos()</span> Method. In The 1st perameter enter the variable name and 2nd perameter enter the word you need index</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624023247/Untitled_16_a3omae.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Convert a normal text to Uppercase text</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to convert a normal text to Uppercase text you can use this <span style="color: red;">upperCase()</span> Method. In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624023514/Untitled_17_jav2at.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Convert a Uppercase text to Lowercase text</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to convert a Uppercase text to Lowercase text you can use this <span style="color: red;">lowerCase()</span> Method. In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624023742/Untitled_vb3zge.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Trim any string value</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to Trim or cut white Space of any string value you can use this <span style="color: red;">trim()</span> Method. In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624024013/Untitled_1_dxl0jd.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Convert any data into a string</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to Convert any data to a string then you can use this <span style="color: red;">toStr()</span> Method. In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624027047/Untitled_r9t7rv.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Convert any data into a number</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to Convert any data to a number then you can use this <span style="color: red;">toNum()</span> Method. In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624027377/Untitled_1_tmuzif.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Convert any data into a Integer</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to Convert any data to a Integer value then you can use this <span style="color: red;">toInt()</span> Method. In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624027686/Untitled_2_sdd6ee.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Convert any data into a Float</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to Convert any data to a Float value then you can use this <span style="color: red;">toFloat()</span> Method. In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624027854/Untitled_3_j65wih.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Repeat your variable as you want</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to Repeat your variable data multiple times then you can use this <span style="color: red;">rptStr()</span> Method. In The 1st perameter enter the variable name. and 2nd perameter enter the number that how many times you want to repeat it</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624033891/Untitled_5_cd3llr.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly add PI Value in your Projects</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to add value of PI you can use this <span style="color: red;">var pi = PI;</span> Method.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624034356/Untitled_6_qe3woo.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Round Up your float value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to Round Up Your Float value. then you can use this <span style="color: red;">setRound()</span> Method.Store a float value in a variable and add it In The 1st perameter enter the variable name.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624034652/Untitled_7_vqhm3e.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Set Power value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to set power in your variable value. then you can use this <span style="color: red;">setPower()</span> Method.In the 1st perameter enter the variable name and 2nd perameter enter the power value as numeric value</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624035108/Untitled_8_ucmaje.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Set root <span><img src="https://image.flaticon.com/icons/png/512/178/178302.png" width="20px" height="20px" alt=""></span> value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to get root value of of any numerica value. then you can use this <span style="color: red;">setRoot()</span> Method.In the 1st perameter enter the variable name and 2nd perameter enter the power value as numeric value</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624114632/Untitled_10_kt2brr.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Get a absolute value of any negetive value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you need absolute value of of any numerica value. then you can use this <span style="color: red;">setAbs()</span> Method.In the 1st perameter enter the variable name</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624115001/Untitled_11_rsjzxv.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Get Upper value of your negetive float value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to get upper value of your numeric float value. then you can use this <span style="color: red;">setMathUp()</span> Method.In the 1st perameter enter the variable name</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624115308/Untitled_12_iyzzth.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Get Lower value of your negetive float value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to get Lower value of your numeric float value. then you can use this <span style="color: red;">setMatDown()</span> Method.In the 1st perameter enter the variable name</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624115398/Untitled_13_daoou9.jpg"  class="img-fluid ml-5" alt="">
+						
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Set cubik root <span><img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624115707/unnamed_giv0gj.png" width="20px" height="20px" alt=""></span> value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to get cubik root value of of any numerica value. then you can use this <span style="color: red;">setQbRoot()</span> Method.In the 1st perameter enter the variable name and 2nd perameter enter the power value as numeric value</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624116023/Untitled_15_qmre4h.jpg"  class="img-fluid ml-5" alt="">
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624115895/cube-root-of-64_npttfs.png"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly compare two value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to compare two numeric value. then you can use this <span style="color: red;">getGreater()</span> Method.In the 1st perameter enter 1st value and 2nd perameter enter 2nd value</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624116269/Untitled_16_a42xvq.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly compare two value </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to compare two numeric value. then you can use this <span style="color: red;">getLess()</span> Method.In the 1st perameter enter 1st value and 2nd perameter enter 2nd value</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624116493/Untitled_17_e3r21l.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly set break on your loop </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want set break on your loop value. then you can use this <span style="color: red;">setLoopBrk()</span> Method.In the 1st perameter enter the break value and 2nd perameter enter enter the loop length value</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624116861/Untitled_18_j1bhdk.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly set continue method on your loop </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want skip value on your loop value. then you can use this <span style="color: red;">setLoopConti()</span> Method.In the 1st perameter enter the value that you want to skip value and 2nd perameter enter enter the loop length value</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624117068/Untitled_19_f2hpx4.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly hide any data </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to hide any data in your document. then you can use this <span style="color: red;">setHide()</span> Method.In the 1st perameter enter the Class Name Example(.text) or ID name Example(#text) Or Tag Name Example(h1) to access it</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624117369/Untitled_20_y03swt.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly show any hidden data </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to show any hidden data in your document. then you can use this <span style="color: red;">setShow()</span> Method.In the 1st perameter enter the Class Name Example(.text) or ID name Example(#text) Or Tag Name Example(h1) to access it</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624117690/Untitled_21_s2xald.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Get your screen width </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to know the screen width of your computer. then you can use this <span style="color: red;">scrXlen()</span> Method.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624117933/Untitled_22_kyrgxd.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly Get your screen height </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to know the screen height of your computer. then you can use this <span style="color: red;">scrYlen()</span> Method.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624118112/Untitled_23_hbopuy.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Quickly redirect your page to your targeted site </p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">If you want to redirect page. then you can use this <span style="color: red;">urlRedirect()</span> Method.</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624118604/Untitled_24_uh1pk4.jpg"  class="img-fluid ml-5" alt="">
+						</div>
+
+						
+						
+
+					</section><!--//section-->
+					<section class="docs-section mt-5" id="item-1-7">
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Something New is comming</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">You can't miss this</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624201250/Pngtree_opening_soon_banner_4100563_acfkck.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+					</section>
+					
+			    </article>
+			    
+			    
+			    
+			    
+			    <article class="docs-article" id="section-3">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">APIs</h1>
+					    <!-- <section class="docs-intro">
+						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						</section>//docs-intro -->
+				    </header>
+				     <section class="docs-section" id="item-3-1">
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Something New is comming</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">You can't miss this</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624202065/Pngtree_coming_soon_purple_shape_5495959_ici8tr.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+					</section><!--//section-->
+					
+					<!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-4">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Intergrations</h1>
+					    
+				    </header>
+				     <section class="docs-section" id="item-4-1">
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Something New is comming</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">You can't miss this</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624202065/Pngtree_coming_soon_purple_shape_5495959_ici8tr.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+					</section><!--//section-->
+					
+					
+			    
+			    <article class="docs-article" id="section-5">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Utilities</h1>
+					   
+				    </header>
+				     <section class="docs-section" id="item-5-1">
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Something New is comming</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">You can't miss this</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624202065/Pngtree_coming_soon_purple_shape_5495959_ici8tr.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+					</section><!--//section-->
+					
+					
+			    
+			    
+		        
+					
+					
+			    
+			    
+			    <article class="docs-article" id="section-8">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Resources</h1>
+					    
+				    </header>
+				     <section class="docs-section" id="item-8-1">
+						<div class="pst-box">
+							<p class="ml-5 mt-5">Something New is comming</p>
+							<div class="post-box2">
+								<h5 class="ml-5 p-3">You can't miss this</h5>
+							</div>
+						<img src="https://res.cloudinary.com/dmrbshmpq/image/upload/v1624202065/Pngtree_coming_soon_purple_shape_5495959_ici8tr.png" style="width: 80%;" class="img-fluid ml-5" alt="">
+						</div>
+					</section><!--//section-->
+					
+					
+			    
+			    
+			    <!-- <article class="docs-article" id="section-9">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">FAQs</h1>
+					    <section class="docs-intro">
+						    <p>Section intro goes here. You can list all your FAQs using the format below.</p>
+						</section>
+				    </header>
+				     <section class="docs-section" id="item-9-1">
+						<h2 class="section-heading">Section Item 9.1 <small>(FAQ Category One)</small></h2>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>What's sit amet quam eget lacinia?</h5>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>How to ipsum dolor sit amet quam tortor?</h5>
+						<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Can I  bibendum sodales?</h5>
+						<p>Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Where arcu sed urna gravida?</h5>
+						<p>Aenean et sodales nisi, vel efficitur sapien. Quisque molestie diam libero, et elementum diam mollis ac. In dignissim aliquam est eget ullamcorper. Sed id sodales tortor, eu finibus leo. Vivamus dapibus sollicitudin justo vel fermentum. Curabitur nec arcu sed urna gravida lobortis. Donec lectus est, imperdiet eu viverra viverra, ultricies nec urna. </p>
+					</section>
+					
+					<section class="docs-section" id="item-9-2">
+						<h2 class="section-heading">Section Item 9.2 <small>(FAQ Category Two)</small></h2>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>What's sit amet quam eget lacinia?</h5>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>How to ipsum dolor sit amet quam tortor?</h5>
+						<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Can I  bibendum sodales?</h5>
+						<p>Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Where arcu sed urna gravida?</h5>
+						<p>Aenean et sodales nisi, vel efficitur sapien. Quisque molestie diam libero, et elementum diam mollis ac. In dignissim aliquam est eget ullamcorper. Sed id sodales tortor, eu finibus leo. Vivamus dapibus sollicitudin justo vel fermentum. Curabitur nec arcu sed urna gravida lobortis. Donec lectus est, imperdiet eu viverra viverra, ultricies nec urna. </p>
+					</section>
+					
+					<section class="docs-section" id="item-9-3">
+							<h2 class="section-heading">Section Item 9.3 <small>(FAQ Category Three)</small></h2>
+						    <h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>How to dapibus sollicitudin justo vel fermentum?</h5>
+							<p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
+							<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>How long bibendum sodales?</h5>
+							<p>Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. </p>
+							<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Where dapibus sollicitudin?</h5>
+							<p>Aenean et sodales nisi, vel efficitur sapien. Quisque molestie diam libero, et elementum diam mollis ac. In dignissim aliquam est eget ullamcorper. Sed id sodales tortor, eu finibus leo. Vivamus dapibus sollicitudin justo vel fermentum. Curabitur nec arcu sed urna gravida lobortis. Donec lectus est, imperdiet eu viverra viverra, ultricies nec urna. </p>
+					</section>
+			    </article> -->
+
+			    <footer class="footer">
+				    <div class="container text-center py-5">
+					    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+				        <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+				        <ul class="social-list list-unstyled pt-4 mb-0">
+						    <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li> 
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
+				        </ul><!--//social-list-->
+				    </div>
+			    </footer>
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+    
+   
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    
+    <!-- Page Specific JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script> 
+    <script src="assets/plugins/jquery.scrollTo.min.js"></script>
+    <script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
+    <script src="assets/js/docs.js"></script> 
+
+</body>
+</html> 
+
